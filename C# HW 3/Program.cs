@@ -12,6 +12,9 @@ if (number == 6) Console.Write ("Суббота");
 if (number == 7) Console.Write ("Воскресенье");
 
 if (number < 6) Console.Write (" - Рабочий день");
-    else Console.Write (" - Выходной");
+    
+if (number == 7 || number == 6) Console.Write (" - Выходной");
 
-if Console.Write ("Введите число от 1го до 7ми.");
+else if (number < 1 || number > 7) {
+    Console.WriteLine ("Введите число от 1го до 7ми.");
+}
